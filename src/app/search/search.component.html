@@ -1,0 +1,13 @@
+<h1>Need Music?</h1>
+<p class="lead">Use the ngSpotify app to browse new release and find your favorite songs.
+</p>
+
+<form action="">
+  <div class="form-group">
+    <input class="form-control" type="text" 
+      placeholder="Search Artists..."
+      [(ngModel)]="searchStr"
+      name="searchStr"
+      (keyup)="searchMusic()">
+  </div>
+</form>
