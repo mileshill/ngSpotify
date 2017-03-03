@@ -16,7 +16,7 @@
       "polyfills": "polyfills.ts",
       "test": "test.ts",
       "tsconfig": "tsconfig.json",
-      "prefix": "app",
+      "prefix": "",
       "styles": [
         "styles.css"
       ],
@@ -57,11 +57,11 @@
     },
     "spec": {
       "class": false,
-      "component": true,
-      "directive": true,
+      "component": false,
+      "directive": false,
       "module": false,
-      "pipe": true,
-      "service": true
+      "pipe": false,
+      "service": false
     }
   }
 }
