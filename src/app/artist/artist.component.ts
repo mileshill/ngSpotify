@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Router, ActivatedRoute } from '@angular/router';
+import { Artist } from '../artists';
+import { Album } from '../album';
 
 @Component({
   selector: 'artist',
@@ -11,5 +14,8 @@ export class ArtistComponent implements OnInit {
 
   ngOnInit() {
   }
+
+
+
 
 }
