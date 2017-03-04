@@ -19,7 +19,6 @@ export class ArtistComponent implements OnInit {
     private _route: ActivatedRoute
   ){}
 
-
  ngOnInit() {
    this._route.params
     .map(params => params['id'])
