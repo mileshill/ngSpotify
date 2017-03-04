@@ -11,6 +11,7 @@ import { SearchComponent } from './search/search.component';
 import { routing } from './app.routing';
 import { SpotifyService } from './spotify.service';
 import { ArtistComponent } from './artist/artist.component';
+import { AlbumComponent } from './album/album.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ArtistComponent } from './artist/artist.component';
     NavbarComponent,
     AboutComponent,
     SearchComponent,
-    ArtistComponent
+    ArtistComponent,
+    AlbumComponent
   ],
   imports: [
     BrowserModule,
